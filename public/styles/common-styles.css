@@ -1,0 +1,105 @@
+/* alignments */
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.self-end {
+  align-self: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* text color */
+
+.text-white {
+  color: white;
+}
+
+/* buttons */
+.btn {
+  width: 160px;
+  height: 50px;
+  padding: 10px 0;
+  border-radius: 80px;
+  outline: 0;
+  font-size: 0.8rem;
+  border: 0;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.btn:not(.btn.disabled, .bookmark-btn):hover {
+  background-color: var(--dark-cyan);
+}
+
+.btn.disabled {
+  cursor: initial;
+}
+
+.btn-cyan {
+  background-color: var(--moderate-cyan);
+  color: white;
+}
+
+/* position */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+/* margins */
+.m-0 {
+  margin: 0 !important;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/* cursor */
+.pointer {
+  cursor: pointer;
+}
+
+
+/* disabled */
+
+.disabled {
+    opacity: 0.5;
+    cursor: initial !important;
+}
